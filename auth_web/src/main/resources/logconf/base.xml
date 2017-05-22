@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<included>
+	<include resource="logconf/defaults.xml" />
+	<property name="LOG_FILE" value="../../logs/auth.log"/>
+	<include resource="logconf/console-appender.xml" />
+	<include resource="logconf/file-appender.xml" />
+	<root level="INFO">
+		<appender-ref ref="CONSOLE" />
+		<appender-ref ref="FILE" />
+	</root>
+</included>

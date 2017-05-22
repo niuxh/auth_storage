@@ -1,0 +1,11 @@
+#server error path
+server:
+    error:
+        path: /custom/error
+#spring profile
+spring:
+    profiles:
+        active: pro
+#logging
+logging:
+    config: classpath:logconf/logback-spring.xml
